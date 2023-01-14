@@ -13,7 +13,11 @@
   - [2.2. Datatype](#22-datatype)
   - [2.3. Variable](#23-variable)
   - [2.4. Comments](#24-comments)
-  - [3. Input and Output](#3-input-and-output)
+  - [2.5. Input and Output](#25-input-and-output)
+- [Chapter 3: Operators](#chapter-3-operators)
+  - [3.1. Arithmetic Operator](#31-arithmetic-operator)
+  - [3.2. Increment and Decrement](#32-increment-and-decrement)
+  - [3.3. Modulus and short hand](#33-modulus-and-short-hand)
 
 
 # Chapter 1: Getting started with C++
@@ -233,7 +237,95 @@ int main()
 ```
 __See program [3-comments.cpp](programs/3-comments.cpp)__
 
-## 3. Input and Output
+## 2.5. Input and Output
+
+1. `cout` is used to display the output.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Display Output
+    cout<<"Hi, cout is used to print message"<<endl<<"cout is awesome";
+    return 0;
+}
+```
+__See program [8-output.cpp](programs/8-output.cpp)__
+
+2. `cin` is used to take input from user.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int age;
+    float avg;
+    cout<<"Enter your age and average"<<endl;
+    // Taking Input from user
+    cin>>age>>avg;
+    cout<<"You have entered age is "<<age<<" and average is "<<avg<<endl;
+    return 0;
+}
+```
+__See program [9-input.cpp](programs/9-input.cpp)__
+
+# Chapter 3: Operators
+
+## 3.1. Arithmetic Operator
+
+- `+`, `-`, `*`, `/` are the arithmetic operators.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num1 = 19, num2 = 20;
+    cout<<num1<<" + "<<num2<<" = "<<num1+num2<<endl;
+    cout<<num1<<" - "<<num2<<" = "<<num1-num2<<endl;
+    cout<<num1<<" * "<<num2<<" = "<<num1*num2<<endl;
+    cout<<num1<<" / "<<num2<<" = "<<num1/num2<<endl;
+    return 0;
+}
+```
+- __See program [10-arithmetic-operator.cpp](programs/10-arithmetic-operator.cpp)__
+
+## 3.2. Increment and Decrement
+
+- `++` Increment operator
+- `--` Decrement operator
+- `++a` prefix increment
+- `--a` prefix decrement
+- `a++` postfix increment
+- `a--` postfix decrement
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 10;
+    cout<<a<<endl;
+    cout<<++a<<endl;
+    
+    int b = 20;
+    cout<<b<<endl;
+    cout<<b++<<endl;
+    cout<<b<<endl;
+    return 0;
+}
+```
+- __See program [11-increment-decrement.cpp](programs/11-increment-decrement.cpp)__
+
+## 3.3. Modulus and short hand
+
+
 
 
 

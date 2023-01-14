@@ -29,7 +29,7 @@
 - In 1983 renamed as "C++".
 - `++` is referred as increment operator.
 
-![image](images/Programming.png)
+![Error](images/Programming.png)
 
 ## 1.1: Features
 
@@ -74,6 +74,8 @@
   - mingw: minimalist GNU for windows.
   - cygwin: for Linux.
 - __IDE:__ Code Blocks, Eclipse, Visual Studio Code, Turbo C++.
+
+![Error](images/compile_single_file.png)
 
 ## 1.6: First Program
 

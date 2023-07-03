@@ -327,7 +327,20 @@ int main()
 
 ## 3.3. Modulus and short hand
 
+```py
+% # Modulus
 
+# Short Hand
++=
+-=
+*=
+/=
+%=
+```
+
+```py
+
+```
 
 
 
